@@ -1,0 +1,231 @@
+.seccion2 {
+    position: relative;
+    z-index: 20;
+}
+
+.Barra{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 24px ;
+    font-size: 10px;
+   
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+.logo{
+    display: flex;
+    width: 65px;
+    height: 65px;
+}
+.boton{
+    border: none;
+    width: 65px;
+   height: 35px;
+    border-radius: 8px;
+    background-color: fuchsia;
+    color: white;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #a855f7, #ec4899);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+
+}
+.boton:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+
+}.seccion1{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+  position: relative;
+  right: 25px;
+}
+.short{
+    position: absolute; 
+    top: 40%;            
+    left: 50%;           
+    transform: translate(-50%, -60%); 
+    z-index: 10;         
+    width: 470px;        
+    height: auto;
+    
+}
+.morado{
+  
+    position: relative;
+    z-index: 1;
+}
+.contenedor{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+.contenedor img{
+    width: 490px;
+    height: auto;
+    bottom: 50px;
+    position: relative;
+}
+.naranja{
+    position: relative;
+    width: 270px;
+    top: 20px;
+}
+.texto{
+    font-size: 23px;
+    color: #ff7c7c;
+    top: 34%;
+    position: absolute;
+    left: 33%;
+    font-weight: 400;
+}
+.boton2{
+    border: none;
+    width: 90px;
+   height: 35px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+}
+.boton2:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+ 
+}
+.contenedor2{
+ display: flex;   
+ gap: 300px;
+ justify-content: center;
+ position: absolute;
+ top: 70%;
+ right: 60px;
+ 
+}
+.boni{
+    position: relative;
+    bottom: 8%;
+}
+.pareja{
+    position: absolute;
+    right: 1px;
+   margin-top: 30px;
+   width: 1512px;
+   z-index: 10;
+}
+.tea{
+    position: absolute;
+    z-index: 11;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 700px;
+    margin-left: 20%;
+   margin-top: 25px;
+}
+.parrafo{
+    position: absolute;
+    z-index: 11;
+    margin-top: 220px;
+    color: white;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.boton3{
+    border: none;
+    width: 95px;
+   height: 40px;
+    border-radius: 8px;
+    background-color: fuchsia;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+   z-index: 11;
+   margin-top: 320px;
+   transform: translateX(-50%);
+   background: linear-gradient(to right, #a855f7, #ec4899);
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton3:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    
+  }
+.consejoso{
+    position: absolute;
+  z-index: 12;
+  margin-top: 30%; /* usa top en lugar de margin-top */
+  width: 500px;
+right: 495px;
+}
+.citas{
+    color: fuchsia;
+    margin-top: 60%;
+    font-size: 20px;
+}
+.seccione{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.cuadrito{
+   
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+  
+}
+
+
+.primerap{
+    width: 350px;
+ 
+   
+}
+.contenedorpri{
+    display: flex;
+    justify-content: center;
+  
+  
+}
+.siete{
+    color: fuchsia;
+}
+.segunda{
+    width: 350px;
+}
+.ultima{
+    height: 40vh;
+}
+.rectangulo{
+    width: 1520px;
+    height: 50vh;
+    background-color: #Fe5dd7;
+    margin-top: 140px;
+position: absolute;
+right: 1px;
+z-index: -1;
+}
+.he{
+    color: white;
+}

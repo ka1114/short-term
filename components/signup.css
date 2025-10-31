@@ -1,0 +1,11 @@
+.signe{
+    position: absolute;
+    z-index: 14;
+   width: 400px;
+   height: 400px;
+   bottom: 27%;
+}
+.gu{
+    position: relative;
+    left: 14%;
+}

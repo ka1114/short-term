@@ -1,0 +1,126 @@
+.moradito{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    right: 55%;
+    z-index: 2;
+}
+.naranjita{
+    position: absolute;
+    top: -10%;
+    z-index: 2;
+}
+.rosadito{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    right: -10%;
+    top: -15%;
+    z-index: 2;
+}
+.transparente{
+    width: 1400px;
+    height: 700px;
+    z-index: 3;
+}
+.logine{
+    position: absolute;
+    z-index: 4;
+    width: 400px;
+    height: 400px;
+}
+
+  input {
+    width: 250px;
+  padding: 10px 15px;
+  border: 1.5px solid rgba(255, 255, 255, 0.8); 
+  background: transparent; /* deja ver el fondo */
+  color: black; /* texto blanco */
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+  border-color: fuchsia;
+  position: absolute;
+  z-index: 14;
+  }  
+.pri{
+ position: absolute;
+ z-index: 14;
+ margin-top: 18%;
+ margin-right: 20%;
+}
+.seg{
+    position: absolute;
+    z-index: 14;
+    margin-top: 23%;
+    margin-right: 20%;
+}
+.iniciar{
+    position: absolute;
+    z-index: 14;
+    margin-top: 25%;
+    margin-right: 10%;
+    width: 284px;
+    border-radius: 15px;
+    height: 35px;
+    border-color: #fe5dd7;
+    background: linear-gradient(90deg, #fe5dd7, #9a32f0, #fee073);
+    background-size: 200% 200%;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-position 1s ease, transform 0.3s ease;
+}
+.botonee{
+    position: absolute;
+    right: 5%;
+    bottom: -100%;
+}
+.iniciare{
+    position: absolute;
+    z-index: 14;
+    margin-left: 36%;
+    margin-top: 3%;
+}
+.goo{
+    width: 60px;
+    position: absolute;
+    z-index: 14;
+    bottom: 14%;
+    gap: 20px;
+    display: flex;
+    width: 190px;
+}
+.gu{
+border: none;
+width: 130px;
+height: 30px;
+border-radius: 10px;
+align-items: center;
+display: flex;
+justify-content: center;
+gap: 5px;
+border-color: #fe5dd7;
+background: linear-gradient(90deg, #fe5dd7, #9a32f0, #fee073);
+color: white;
+transition: background-position 1s ease, transform 0.3s ease;
+background-size: 200% 200%;
+cursor: pointer;
+
+}
+.fa{
+border: none;
+width: 130px;
+border-radius: 10px;
+align-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-color: #fe5dd7;
+background: linear-gradient(90deg, #fe5dd7, #9a32f0, #fee073);
+color: white;
+transition: background-position 1s ease, transform 0.3s ease;
+background-size: 200% 200%;
+}
